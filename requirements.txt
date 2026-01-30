@@ -1,0 +1,4 @@
+# No external dependencies required for the core application.
+# The project relies on the Python Standard Library (logging, json, csv, time, random, etc.)
+# Dev dependencies (optional):
+# pytest
