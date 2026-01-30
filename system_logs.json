@@ -1,0 +1,9 @@
+{"timestamp": "2026-01-30 22:20:34", "service_name": "ElevenLabs", "error_category": "FAILURE", "retry_count": 1, "circuit_breaker_state": "CLOSED", "message": "Operation failed: ElevenLabs API is returning 503"}
+{"timestamp": "2026-01-30 22:20:39", "service_name": "ElevenLabs", "error_category": "FAILURE", "retry_count": 2, "circuit_breaker_state": "CLOSED", "message": "Operation failed: ElevenLabs API is returning 503"}
+{"timestamp": "2026-01-30 22:20:44", "service_name": "ElevenLabs", "error_category": "FAILURE", "retry_count": 3, "circuit_breaker_state": "OPEN", "message": "Operation failed: ElevenLabs API is returning 503"}
+{"timestamp": "2026-01-30 22:20:46", "service_name": "ElevenLabs", "error_category": "FAILURE", "retry_count": 3, "circuit_breaker_state": "OPEN", "message": "Operation failed: Circuit Breaker is OPEN for ElevenLabs"}
+{"timestamp": "2026-01-30 22:20:46", "service_name": "CallManager", "error_category": "Fallback", "retry_count": 0, "circuit_breaker_state": "OPEN", "message": "Skipped call to User_E due to ElevenLabs CB Open"}
+{"timestamp": "2026-01-30 22:20:51", "service_name": "ElevenLabs", "error_category": "FAILURE", "retry_count": 3, "circuit_breaker_state": "OPEN", "message": "Operation failed: Circuit Breaker is OPEN for ElevenLabs"}
+{"timestamp": "2026-01-30 22:20:51", "service_name": "CallManager", "error_category": "Fallback", "retry_count": 0, "circuit_breaker_state": "OPEN", "message": "Skipped call to User_F due to ElevenLabs CB Open"}
+{"timestamp": "2026-01-30 22:20:56", "service_name": "ElevenLabs", "error_category": "FAILURE", "retry_count": 3, "circuit_breaker_state": "OPEN", "message": "Operation failed: Circuit Breaker is OPEN for ElevenLabs"}
+{"timestamp": "2026-01-30 22:20:56", "service_name": "CallManager", "error_category": "Fallback", "retry_count": 0, "circuit_breaker_state": "OPEN", "message": "Skipped call to User_G due to ElevenLabs CB Open"}
